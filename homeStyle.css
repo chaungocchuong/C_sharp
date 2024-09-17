@@ -8,7 +8,21 @@ body {
 }
 
 header {
-  background-size: 400% 400%;
+  width: 100%;
+  height: 100vh;
+  /* background-color: #ffc0d5; */
+  /* background-color: #fa6aad; */
+  /* background-color: #a151a6; */
+  /* background: linear-gradient(
+    135deg,
+    rgba(139, 105, 105, 0.39548319327731096) 0%,
+    rgba(4, 5, 35, 1) 25%
+  ); */
+  background-image: url(/img/animal-8060499_1920.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+
   animation: gradient 15s ease infinite;
 }
 
@@ -28,23 +42,6 @@ main {
   100% {
     background-position: 0% 50%;
   }
-}
-
-header {
-  width: 100%;
-  height: 100vh;
-  /* background-color: #ffc0d5; */
-  /* background-color: #fa6aad; */
-  /* background-color: #a151a6; */
-  /* background: linear-gradient(
-    135deg,
-    rgba(139, 105, 105, 0.39548319327731096) 0%,
-    rgba(4, 5, 35, 1) 25%
-  ); */
-  background-image: url(/img/animal-8060499_1920.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
 }
 
 .img-head-one {
@@ -260,7 +257,7 @@ h2 {
 }
 
 .navbar {
-  background: #030628;
+  background: #060c59;
 }
 
 /* phần navbar */
