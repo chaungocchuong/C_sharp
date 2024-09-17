@@ -15,8 +15,7 @@ header {
 main {
   width: 100%;
   height: auto;
-  padding: 70px 100px;
-  background-color: #040523;
+  padding: 70px 50px;
 }
 
 @keyframes gradient {
@@ -37,17 +36,17 @@ header {
   /* background-color: #ffc0d5; */
   /* background-color: #fa6aad; */
   /* background-color: #a151a6; */
-  background: linear-gradient(
+  /* background: linear-gradient(
     135deg,
     rgba(139, 105, 105, 0.39548319327731096) 0%,
     rgba(4, 5, 35, 1) 25%
-  );
+  ); */
+  background-image: url(/img/animal-8060499_1920.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
 }
-.box_img_head {
-  margin-top: 105px;
-  margin-left: -253px;
-}
+
 .img-head-one {
   width: 350px;
   height: 450px;
@@ -145,9 +144,10 @@ h1 span {
 }
 .box-content {
   display: block;
+  line-height: 35px;
   width: 600px;
-  margin-left: 370px;
-  margin-top: 141px;
+  margin-left: -213px;
+  margin-top: 210px;
 }
 .box-content p {
   font-size: 20px;
@@ -324,7 +324,7 @@ main p:nth-child(1) {
   text-align: center;
   font-size: 40px;
   font-weight: 700;
-  color: #fff;
+  color: #16054d;
   margin-top: 80px;
 }
 .box-gt {
@@ -333,11 +333,15 @@ main p:nth-child(1) {
 .gtMain {
   width: 320px;
   height: 420px;
-  background-color: #4c3d98;
+  background-color: #ffffff;
   margin-left: 60px;
   margin-top: 70px;
   padding: 0 15px;
   border-radius: 20px;
+
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 .gtMain .boder50 {
   width: 80px;
@@ -345,7 +349,7 @@ main p:nth-child(1) {
 }
 
 .gtMain .text-box p {
-  color: #ffff;
+  color: #000000;
   font-size: 18px;
   padding: 15px 20px;
 }
@@ -353,7 +357,6 @@ main p:nth-child(1) {
   margin-top: -40px;
   width: 100%;
   height: 200px;
-  background-color: #1c3030;
   border-radius: 15px;
 }
 .logoFpt {
