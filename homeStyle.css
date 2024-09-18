@@ -264,7 +264,7 @@ h2 {
   display: inline-block;
   width: 150px;
   height: 40px;
-  border: 1px solid black;
+  border: 1px solid rgb(252, 248, 248);
   border-radius: 20px;
   margin-left: 20px;
   text-decoration: none;
@@ -273,10 +273,16 @@ h2 {
 }
 .btn_contact_1 {
   padding: 0 39px;
-  background-color: #f11da3;
+  background-color: #00b887;
 }
 .btn_contact_2 {
+  position: relative;
   padding: 0 60px;
+  transition: all 0.15s linear;
+}
+.btn_contact_2:hover {
+  color: #000000;
+  background-color: #fff;
 }
 
 .navbar {
@@ -299,14 +305,15 @@ li {
 
 .nav-link {
   font-weight: 900px;
+  padding: 10px 20px;
 }
 
 .nav-link:hover {
   color: yellow;
 }
 nav .container-fluid a {
-  font-size: 20px;
-  width: 50px;
+  font-size: 16=8px;
+  width: 100px;
   position: relative;
   transition: all 0.3s linear;
   color: #fff;
@@ -315,6 +322,8 @@ nav .container-fluid a {
 nav .container-fluid a::before {
   content: "";
   position: absolute;
+  top: 0;
+  right: 0;
   border-radius: 999px;
   width: 100%;
   height: 4px;
@@ -325,13 +334,14 @@ nav .container-fluid a::before {
 }
 nav .container-fluid a:hover::before {
   opacity: 1;
-  transform: translateX(0); /* Trượt vào vị trí */
+  transform: translateX(0);
 }
 nav .container-fluid a::after {
   content: "";
   position: absolute;
-  border-radius: 999px;
   bottom: 0;
+  left: 0;
+  border-radius: 999px;
   width: 100%;
   height: 4px;
   background: yellow;
@@ -341,7 +351,7 @@ nav .container-fluid a::after {
 }
 nav .container-fluid a:hover::after {
   opacity: 1;
-  transform: translateX(0); /* Trượt vào vị trí */
+  transform: translateX(0);
 }
 
 /* main */
