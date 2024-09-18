@@ -18,7 +18,7 @@ header {
     rgba(139, 105, 105, 0.39548319327731096) 0%,
     rgba(4, 5, 35, 1) 25%
   ); */
-  background-image: url(/Front-end_PETSTORE/img/animal-8060499_1920.jpg);
+  background-image: url(./img/animal-8060499_1920.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
